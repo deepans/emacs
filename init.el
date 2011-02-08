@@ -276,6 +276,7 @@ LIST defaults to all existing live buffers."
 ;; clojure-mode
 (add-to-list 'load-path "/home/deepans/tools/clojure-tools/clojure-mode")
 (require 'clojure-mode)
+(add-to-list 'auto-mode-alist '("\\.clj$" . clojure-mode))
 
 ;; slime
 (eval-after-load "slime"
@@ -285,6 +286,18 @@ LIST defaults to all existing live buffers."
 (setq inferior-lisp-program "clj-env-dir")
 (require 'slime)
 (slime-setup)
+
+;; paredit
+(add-to-list 'load-path "/home/deepans/tools/emacs-tools/paredit")
+   (autoload 'enable-paredit-mode "paredit"
+     "Turn on pseudo-structural editing of Lisp code."
+     t)
+
+; midje mode
+(add-to-list 'load-path "/home/deepans/tools/emacs-tools/midje-mode")
+(require 'midje-mode)
+(add-hook 'clojure-mode-hook 'midje-mode)
+
 
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
