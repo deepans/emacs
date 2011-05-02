@@ -1,5 +1,7 @@
 (setq emacs-editor-path (append-path emacs-path  "edit-python-tools"))
 
+(require 'python)
+
 ; Install Pymacs (Python part)
 ; pip install https://github.com/pinard/Pymacs/tarball/v0.24-beta2
 
@@ -10,6 +12,13 @@
 (require 'pymacs)
 (pymacs-load "ropemacs" "rope-")
 (setq ropemacs-enable-autoimport t)
+
+
+;(autoload 'python-mode "python-mode.el" "Python mode." t)
+;(setq auto-mode-alist (append '(("/*.\.py$" . python-mode)) auto-mode-alist))
+;(add-to-list 'interpreter-mode-alist '("python" . python-mode))
+;(require 'python-mode)
+
 
 ; Python - bind RET to py-newline-and-indent
 (add-hook 'python-mode-hook '(lambda ()

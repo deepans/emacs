@@ -103,10 +103,10 @@ LIST defaults to all existing live buffers."
 (eval-after-load "color-theme"
   '(progn
      (color-theme-initialize)
-     (load-file (append-path emacs-editor-path  "blackboard-emacs/color-theme-blackboard.el"))
-     (color-theme-blackboard)))
-     ;(load-file (append-path emacs-editor-path  "twilight-emacs/color-theme-twilight.el"))
-     ;(color-theme-twilight)))
+     ;(load-file (append-path emacs-editor-path  "blackboard-emacs/color-theme-blackboard.el"))
+     ;(color-theme-blackboard)))
+     (load-file (append-path emacs-editor-path  "twilight-emacs/color-theme-twilight.el"))
+     (color-theme-twilight)))
 
 ;; CEDET
 (require 'cedet)
