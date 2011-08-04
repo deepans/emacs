@@ -1,1 +1,0 @@
-/home/deepan/tools/clojure-tools/Midje/emacs/midje-mode.el

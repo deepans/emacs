@@ -1,1 +1,0 @@
-/home/deepan/tools/clojure-tools/Midje/emacs/clojure-jump-to-file.el
