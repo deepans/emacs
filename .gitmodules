@@ -10,3 +10,6 @@
 [submodule "edit-clojure-tools/slime"]
 	path = edit-clojure-tools/slime
 	url = git://git.boinkor.net/slime.git
+[submodule "edit-clojure-tools/swank-clojure"]
+	path = edit-clojure-tools/swank-clojure
+	url = git://github.com/jochu/swank-clojure.git
