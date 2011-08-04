@@ -1,0 +1,3 @@
+[submodule "edit-clojure-tool/clojure-mode"]
+	path = edit-clojure-tool/clojure-mode
+	url = git://github.com/technomancy/clojure-mode.git
