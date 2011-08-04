@@ -16,3 +16,6 @@
 [submodule "editor-tools/anything-config"]
 	path = editor-tools/anything-config
 	url = git://repo.or.cz/anything-config.git
+[submodule "editor-tools/twilight-emacs"]
+	path = editor-tools/twilight-emacs
+	url = git://github.com/crafterm/twilight-emacs.git
