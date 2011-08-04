@@ -13,3 +13,6 @@
 [submodule "edit-clojure-tools/swank-clojure"]
 	path = edit-clojure-tools/swank-clojure
 	url = git://github.com/jochu/swank-clojure.git
+[submodule "editor-tools/anything-config"]
+	path = editor-tools/anything-config
+	url = git://repo.or.cz/anything-config.git
