@@ -16,3 +16,6 @@
 [submodule "editor-tools/twilight-emacs"]
 	path = editor-tools/twilight-emacs
 	url = git://github.com/crafterm/twilight-emacs.git
+[submodule "edit-clojure-tools/midje-mode"]
+	path = edit-clojure-tools/midje-mode
+	url = https://github.com/dnaumov/midje-mode.git
