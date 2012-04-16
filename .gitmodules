@@ -4,9 +4,6 @@
 [submodule "edit-clojure-tools/clojure-mode"]
 	path = edit-clojure-tools/clojure-mode
 	url = git://github.com/technomancy/clojure-mode.git
-[submodule "edit-clojure-tools/midje-mode"]
-	path = edit-clojure-tools/midje-mode
-	url = git://github.com/marick/Midje.git
 [submodule "edit-clojure-tools/slime"]
 	path = edit-clojure-tools/slime
 	url = git://git.boinkor.net/slime.git
